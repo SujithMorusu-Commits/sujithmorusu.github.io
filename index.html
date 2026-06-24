@@ -3,91 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sujith | Cybersecurity Analyst Portfolio</title>
-    <!-- Tailwind CSS for clean styling without complex setup -->
+    <title>Sujith | Cybersecurity Analyst</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+<body class="bg-[#0b0f19] text-slate-200 font-sans antialiased selection:bg-emerald-500 selection:text-black">
 
-    <!-- Navigation -->
-    <nav class="border-b border-slate-800 bg-slate-950/50 backdrop-blur sticky top-0 z-50">
-        <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
-            <span class="font-mono text-emerald-400 font-bold">&gt;_ SUJITH</span>
-            <div class="space-x-6 text-sm text-slate-400">
-                <a href="#about" class="hover:text-slate-100 transition">About</a>
-                <a href="#projects" class="hover:text-slate-100 transition">Labs & Projects</a>
-                <a href="#certifications" class="hover:text-slate-100 transition">Certifications</a>
-            </div>
-        </div>
-    </nav>
+    <!-- Global Matrix-Style Grid Overlay for Personalization -->
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none z-0"></div>
 
-    <!-- Main Content Container -->
-    <main class="max-w-4xl mx-auto px-4 py-12 space-y-20">
+    <!-- Main Content Wrapper -->
+    <div class="relative z-10 max-w-4xl mx-auto px-6 py-16 space-y-16">
         
-        <!-- Hero Section -->
-        <section id="about" class="space-y-4">
-            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
-                Cybersecurity Analyst
-            </h1>
-            <p class="text-emerald-400 font-mono text-sm">[#] Specialized in GRC, Access Governance, & Risk Management</p>
-            <p class="text-slate-400 max-w-2xl text-lg leading-relaxed pt-2">
-                Recent Cybersecurity graduate focused on translating complex compliance frameworks into actionable corporate security strategies. Hands-on experience modeling risks, mapping controls, and managing digital identity architectures.
+        <!-- Header / Terminal Identity -->
+        <header class="border-b border-slate-800 pb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
+            <div>
+                <p class="text-emerald-400 font-mono text-xs tracking-widest uppercase mb-2">// SEC_CORE_INIT // ACTIVE_NODE</p>
+                <h1 class="text-5xl font-black tracking-tight text-white sm:text-6xl">
+                    SUJITH MORUSU
+                </h1>
+                <p class="text-slate-400 font-medium text-xl mt-2">Cybersecurity Analyst</p>
+            </div>
+            <div class="flex gap-4 text-xs font-mono text-slate-400">
+                <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span> ONLINE</span>
+                <span>|</span>
+                <span>LOC: BOSTON_MA</span>
+            </div>
+        </header>
+
+        <!-- Mission Statement (The Screaming Cyber Intro) -->
+        <section class="space-y-4">
+            <p class="text-lg text-slate-300 leading-relaxed max-w-3xl">
+                Cybersecurity Master's graduate engineered for enterprise defense, threat mitigation, and infrastructure resilience. Focused on analyzing vulnerabilities, hardening network architectures, and protecting digital assets against evolving threat vectors. 
             </p>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="space-y-6 pt-6">
-            <h2 class="text-2xl font-bold tracking-tight text-white flex items-center gap-2">
-                <span class="text-emerald-400 font-mono">&gt;</span> Technical Labs & Projects
-            </h2>
-            
-            <div class="grid gap-6 sm:grid-cols-2">
-                <!-- Project Card 1: GRC Simulator -->
-                <div class="bg-slate-950 border border-slate-800 rounded-lg p-6 hover:border-emerald-500/50 transition flex flex-col justify-between">
-                    <div class="space-y-3">
-                        <div class="flex justify-between items-start">
-                            <h3 class="text-lg font-bold text-slate-100">Open-Source GRC Sandbox Lab</h3>
-                            <span class="text-xs bg-emerald-500/10 text-emerald-400 font-mono px-2 py-0.5 rounded border border-emerald-500/20">Active</span>
-                        </div>
-                        <p class="text-slate-400 text-sm leading-relaxed">
-                            Hands-on simulation executing corporate governance workflows. Modeled assets, managed an active risk register, mapped compliance controls to industry frameworks, and simulated evidence collection audits.
-                        </p>
-                    </div>
-                    <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-slate-400">
-                        <span>• NIST SP 800-53</span>
-                        <span>• Risk Management</span>
-                        <span>• Compliance Auditing</span>
-                    </div>
+        <!-- Technical Ecosystem (Personalized Tool Stack) -->
+        <section class="space-y-6">
+            <h2 class="text-xs font-mono uppercase tracking-widest text-emerald-400">// ANALYST_ECOLOGY_STATIONS</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div class="bg-slate-950/60 border border-slate-800 p-4 rounded-md">
+                    <p class="text-xs font-mono text-slate-500 mb-1">SIEM & LOGS</p>
+                    <p class="text-sm font-bold text-white">Splunk / Core Analysis</p>
                 </div>
-
-                <!-- Project Card 2: Identity Governance (Capstone) -->
-                <div class="bg-slate-950 border border-slate-800 rounded-lg p-6 hover:border-emerald-500/50 transition flex flex-col justify-between">
-                    <div class="space-y-3">
-                        <div class="flex justify-between items-start">
-                            <h3 class="text-lg font-bold text-slate-100">Identity Governance Integration</h3>
-                            <span class="text-xs bg-blue-500/10 text-blue-400 font-mono px-2 py-0.5 rounded border border-blue-500/20">In Progress</span>
-                        </div>
-                        <p class="text-slate-400 text-sm leading-relaxed">
-                            Analyzing bi-directional integrations between identity protection suites and enterprise governance platforms to streamline access management, access certification, and automated risk mitigation.
-                        </p>
-                    </div>
-                    <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-slate-400">
-                        <span>• IAM</span>
-                        <span>• Access Governance</span>
-                        <span>• Risk Mitigation</span>
-                    </div>
+                <div class="bg-slate-950/60 border border-slate-800 p-4 rounded-md">
+                    <p class="text-xs font-mono text-slate-500 mb-1">ENDPOINT</p>
+                    <p class="text-sm font-bold text-white">CrowdStrike</p>
+                </div>
+                <div class="bg-slate-950/60 border border-slate-800 p-4 rounded-md">
+                    <p class="text-xs font-mono text-slate-500 mb-1">IDENTITY</p>
+                    <p class="text-sm font-bold text-white">Saviynt / IAM</p>
+                </div>
+                <div class="bg-slate-950/60 border border-slate-800 p-4 rounded-md">
+                    <p class="text-xs font-mono text-slate-500 mb-1">INFRASTRUCTURE</p>
+                    <p class="text-sm font-bold text-white">Virtual Labs & AD</p>
                 </div>
             </div>
         </section>
 
-    </main>
+        <!-- Core Targets / Project Directives -->
+        <section class="space-y-6">
+            <h2 class="text-xs font-mono uppercase tracking-widest text-emerald-400">// CURRENT_DIRECTIVES</h2>
+            <div class="grid gap-4">
+                
+                <!-- Project 1 -->
+                <div class="bg-slate-950/40 border border-slate-800 p-6 rounded-lg hover:bg-slate-950/80 transition group">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-lg font-bold text-white group-hover:text-emerald-400 transition">Bi-Directional Identity Protection Architecture</h3>
+                        <span class="text-xs font-mono text-amber-500 border border-amber-500/20 bg-amber-500/5 px-2 py-0.5 rounded">DEV_PHASE</span>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Engineering a cross-platform integration model balancing endpoint telemetry with robust identity governance. Simulating data pipelines between security event triggers and automated enterprise access controls.
+                    </p>
+                </div>
 
-    <!-- Footer -->
-    <footer class="border-t border-slate-800 bg-slate-950 mt-20">
-        <div class="max-w-4xl mx-auto px-4 py-6 text-center text-xs text-slate-500 font-mono">
-            // Built using GitHub Pages // 2026
-        </div>
-    </footer>
+                <!-- Project 2 -->
+                <div class="bg-slate-950/40 border border-slate-800 p-6 rounded-lg hover:bg-slate-950/80 transition group">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-lg font-bold text-white group-hover:text-emerald-400 transition">Active Directory Sandbox & Incident Tracking</h3>
+                        <span class="text-xs font-mono text-emerald-400 border border-emerald-400/20 bg-emerald-500/5 px-2 py-0.5 rounded">LAB_LIVE</span>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Deploying local virtual environments to audit group policies, monitor authentication anomalies, and construct behavioral profiles for defensive security testing.
+                    </p>
+                </div>
 
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-slate-900 pt-8 text-center text-xs font-mono text-slate-600">
+            SUJITH_MORUSU // CORE_TERMINAL_v2.0 // DEPLOYED_VIA_PAGES
+        </footer>
+
+    </div>
 </body>
 </html>
